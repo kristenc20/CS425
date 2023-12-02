@@ -108,5 +108,6 @@ int main(int argc, char* argv[]) {
             //   message, which indicates this session is over.
             session << response;
         }};
+        t.detach();
     }
 }
